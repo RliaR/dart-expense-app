@@ -1,11 +1,14 @@
-import 'package:dart_expense_app/dart_expense_app.dart' as dart_expense_app;
+void showAll() {
+  print("1. lunch: \$10.00");
+  print("2. dinner \$20.00");
+}
 
-void showAll() {}
-
-void totalPaid() {}
+void totalPaid() {
+  print("Total paid: \$30.00");
+}
 
 void main(List<String> arguments) {
   showAll();
-  
+
   totalPaid();
 }
