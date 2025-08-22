@@ -3,7 +3,9 @@ void showAll() {
   print("2. dinner \$20.00");
 }
 
-void totalPaid() {}
+void totalPaid() {
+  print("Total paid: \$30.00");
+}
 
 void main(List<String> arguments) {
   showAll();
